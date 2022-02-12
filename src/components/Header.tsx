@@ -16,7 +16,9 @@ export function Header({ showBackButton = false }: HeaderProps) {
       as="header"
       position="relative"
       w="100%"
+      maxW="1440px"
       h="100px"
+      m="0 auto"
       align="center"
       justify="center"
     >
