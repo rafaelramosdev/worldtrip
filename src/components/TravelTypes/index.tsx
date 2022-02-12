@@ -5,6 +5,7 @@ import { TravelItem } from "./TravelItem";
 export function TravelTypes(){
   return (
     <Flex
+      as="section"
       w="100%"
       px="140px"
       align="center"
