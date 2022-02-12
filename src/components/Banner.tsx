@@ -4,7 +4,7 @@ export function Banner() {
   return (
     <Box
       h={335}
-      bgImage="url('/images/background.png')"
+      bgImage="url('/images/banner.png')"
       bgPosition="center"
     >
       <Flex
