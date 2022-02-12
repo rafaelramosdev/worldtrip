@@ -6,6 +6,7 @@ import { Box, Text } from "@chakra-ui/react";
 
 import { api } from "../services/api";
 
+import { Header } from '../components/Header';
 import { Banner } from "../components/Banner";
 import { TravelTypes } from "../components/TravelTypes";
 import { Divider } from "../components/Divider";
@@ -19,6 +20,7 @@ export default function Home({ continents }) {
       </Head>
   
       <Box>
+        <Header />
         <Banner />
 
         <Box
