@@ -19,41 +19,43 @@ export function Info({ data }: ContinentContentInfoProps) {
       w="100%"
       align="center"
       justify="space-between"
-      mt="80px"
+      flexDir={{ base: "column", md: "row" }}
+      mt={{ base: "1.5rem", md: "5rem" }}
     >
       <Text
-        fontSize="24px"
-        lineHeight="36px"
+        fontSize={{ base: "0.875rem", md: "1.5rem" }}
+        lineHeight={{ base: "1.3125rem", md: "2.25rem" }}
         textAlign="justify"
         color="gray.700"
-        maxW="600px"
+        maxW="37.5rem"
       >
         {data.about}
       </Text>
 
       <Flex
-        w="40%"
+        w={{ base: "100%", md: "40%" }}
         align="center"
         justify="space-between"
+        mt={{ base: "1rem", md: "0px" }}
       >
         <Stack
-          spacing="-10px"
-          align="center"
+          spacing={{ base: "0px", md: "-0.5rem" }}
+          align={{ base: "unset", md: "center" }}
           justify="center"
         >
           <Text
             fontWeight="600"
-            fontSize="48px"
-            lineHeight="72px"
-            textAlign="center"
+            fontSize={{ base: "1.5rem", md: "3rem" }}
+            lineHeight={{ base: "2.25rem", md: "4.5rem" }}
+            textAlign={{ base: "initial", md: "center" }}
             color="yellow.900"
           >
             {data.countries}
           </Text>
           <Text
-            fontWeight="600"
-            fontSize="24px"
-            lineHeight="36px"
+            fontWeight={{ base: "400", md: "600" }}
+            fontSize={{ base: "1.125rem", md: "1.5rem" }}
+            lineHeight={{ base: "1.6875rem", md: "2.25rem" }}
             textAlign="center"
           >
             países
@@ -61,23 +63,23 @@ export function Info({ data }: ContinentContentInfoProps) {
         </Stack>
 
         <Stack
-          spacing="-10px"
-          align="center"
+          spacing={{ base: "0px", md: "-0.5rem" }}
+          align={{ base: "unset", md: "center" }}
           justify="center"
         >
           <Text
             fontWeight="600"
-            fontSize="48px"
-            lineHeight="72px"
-            textAlign="center"
+            fontSize={{ base: "1.5rem", md: "3rem" }}
+            lineHeight={{ base: "2.25rem", md: "4.5rem" }}
+            textAlign={{ base: "initial", md: "center" }}
             color="yellow.900"
           >
             {data.languages}
           </Text>
           <Text
-            fontWeight="600"
-            fontSize="24px"
-            lineHeight="36px"
+            fontWeight={{ base: "400", md: "600" }}
+            fontSize={{ base: "1.125rem", md: "1.5rem" }}
+            lineHeight={{ base: "1.6875rem", md: "2.25rem" }}
             textAlign="center"
           >
             línguas
@@ -85,23 +87,23 @@ export function Info({ data }: ContinentContentInfoProps) {
         </Stack>
 
         <Stack
-          spacing="-10px"
-          align="center"
+          spacing={{ base: "0px", md: "-0.5rem" }}
+          align={{ base: "unset", md: "center" }}
           justify="center"
         >
           <Text
             fontWeight="600"
-            fontSize="48px"
-            lineHeight="72px"
-            textAlign="center"
+            fontSize={{ base: "1.5rem", md: "3rem" }}
+            lineHeight={{ base: "2.25rem", md: "4.5rem" }}
+            textAlign={{ base: "initial", md: "center" }}
             color="yellow.900"
           >
             {data.top_cities}
           </Text>
           <Text
-            fontWeight="600"
-            fontSize="24px"
-            lineHeight="36px"
+            fontWeight={{ base: "400", md: "600" }}
+            fontSize={{ base: "1.125rem", md: "1.5rem" }}
+            lineHeight={{ base: "1.6875rem", md: "2.25rem" }}
             textAlign="center"
           >
             cidades +100 {' '}
@@ -116,7 +118,7 @@ export function Info({ data }: ContinentContentInfoProps) {
                 <Icon
                   as={IoMdInformationCircleOutline}
                   color="gray.500"
-                  fontSize="16px"
+                  fontSize={{ base: "0.75rem", md: "1rem" }}
                 />
               </span>
             </Tooltip>

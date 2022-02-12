@@ -1,6 +1,6 @@
 import { useRouter } from 'next/router';
 
-import { Button, Flex, Icon } from '@chakra-ui/react'
+import { Button, Flex, Icon, Image } from '@chakra-ui/react'
 
 import { FiChevronLeft } from 'react-icons/fi'
 
@@ -17,23 +17,23 @@ export function Header({ showBackButton = false }: HeaderProps) {
       position="relative"
       w="100%"
       maxW="1440px"
-      h="100px"
+      h={{ base: "3.125rem", md: "6.25rem" }}
       m="0 auto"
       align="center"
       justify="center"
     >
       { !!showBackButton && (
         <Button
-          variant="unstyled"
           position="absolute"
-          left="140px"
+          left={{ base: "1rem", md: "8.75rem" }}
+          variant="unstyled"
           onClick={back}
       >
-        <Icon as={FiChevronLeft} fontSize="32px" />
+        <Icon as={FiChevronLeft} fontSize={{ base: "1rem", md: "2rem" }} />
       </Button>
       )}
       
-      <img src="/logo.svg" alt="worldtrip" />
+      <Image src="/logo.svg" alt="worldtrip" w={{ base: "5.5rem", md: "unset" }} />
     </Flex>
   )
 }

@@ -65,6 +65,32 @@ export const theme = extendTheme({
           opacity: 1,
         }
       },
+      '@media (max-width: 768px)': {
+        '.swiper-button-next': {
+          w: '30px',
+          h: '30px',
+          right: '10px',
+
+          '&::after': {
+            fontSize: 'xl',
+          },
+        },
+
+        '.swiper-button-prev': {
+          w: '30px',
+          h: '30px',
+          left: '10px',
+
+          '&::after': {
+            fontSize: 'xl',
+          },
+        },
+
+        '.swiper-pagination .swiper-pagination-bullet': {
+          w: '8px',
+          h: '8px',
+        },
+      },
     }
   }
 })

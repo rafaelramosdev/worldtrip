@@ -28,7 +28,7 @@ export function ContinentContent({ body, cities}: ContinentContentProps) {
       as="section"
       maxW="1440px"
       m="0 auto"
-      px="140px"
+      px={{ base: "1rem", md: "8.75rem"}}
       flexDir="column"
     >
       

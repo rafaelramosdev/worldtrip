@@ -1,4 +1,5 @@
-import { Box, Flex, Grid, Heading } from "@chakra-ui/react";
+import { Box, Flex, Grid, Heading, Stack, useBreakpointValue } from "@chakra-ui/react";
+
 import { Card } from "./Card";
 
 type City = {
@@ -13,34 +14,52 @@ interface CitiesListProps {
 }
 
 export function CitiesList({ data }: CitiesListProps ) {
+  const isWideVersion = useBreakpointValue({
+    base: false,
+    md: true,
+  });
+
   return (
     <Flex
       flexDir="column"
-      mt="80px"
-      mb="35px"
+      mt={{ base: "2rem", md: "5rem" }}
+      mb={{ base: "1rem", md: "2.1875rem" }}
     >
       <Heading
         fontWeight="500"
-        fontSize="36px"
-        lineHeight="54px"
+        fontSize={{ base: "1.5rem", md: "2.25rem" }}
+        lineHeight={{ base: "2.25rem", md: "3.375rem" }}
         color="gray.700"
       >
         Cidades +100
       </Heading>
 
       <Box
-        mt="40px"
+        mt={{ base: "1.25rem", md: "2.5rem" }}
       >
-        <Grid
-        templateColumns="repeat(4, 1fr)"
-        gap={10}
-        >
-          {data.map(city => {
-            return (
-              <Card key={city.id} data={city} />
-            )
-          })}
-        </Grid>
+        { isWideVersion ? (
+          <Grid
+            templateColumns="repeat(4, 1fr)"
+            gap="2.5rem"
+          >
+            {data.map(city => {
+              return (
+                <Card key={city.id} data={city} />
+              )
+            })}
+          </Grid>
+        ) : (
+          <Stack
+            spacing="1.25rem"
+            align="center"
+          >
+            {data.map(city => {
+              return (
+                <Card key={city.id} data={city} />
+              )
+            })}
+          </Stack>
+        )}
       </Box>
     </Flex>
   )

@@ -28,8 +28,8 @@ export default function Home({ continents }) {
           w="100%"
           maxW="1440px"
           m="0 auto"
-          pt="114px"
-          pb="40px"
+          pt={{ base: "2.25rem", md: "7.125rem"}}
+          pb={{ base: "1.5rem", md: "2.5rem" }}
           flex="1"
         >
           <TravelTypes />
@@ -38,8 +38,8 @@ export default function Home({ continents }) {
 
           <Text
             fontWeight="500"
-            fontSize="36px"
-            lineHeight="54px"
+            fontSize={{ base: "1.25rem", md: "2.25rem"}}
+            lineHeight={{ base: "1.875rem", md: "3.375rem"}}
             textAlign="center"
             color="gray.700"
           >

@@ -39,22 +39,22 @@ export function Card({ data }: CardProps) {
 
   return (
     <Box
-      w="256px"
-      h="279px"
+      w="16rem"
+      h="17.4375rem"
     >
       <Image
         src={data.cover} 
         alt={data.name} 
         w="100%"
-        h="173px"
+        h="10.8125rem"
         objectFit="cover"
         borderTopRadius="4px"
       />
 
       <Flex
         w="100%"
-        h="106px"
-        p="18px 24px"
+        h="6.625rem"
+        p="1.125rem 1.5rem"
         align="center"
         justify="space-between"
         bg="white.900"
@@ -66,18 +66,18 @@ export function Card({ data }: CardProps) {
         <Box>
           <Text
             fontWeight="600"
-            fontSize="20px"
-            lineHeight="25px"
+            fontSize="1.25rem"
+            lineHeight="1.5625rem"
             color="gray.700"
-            mb="12px"
+            mb="0.75rem"
           >
             {data.name}
           </Text>
           <Text
             as="span"
             fontWeight="500"
-            fontSize="16px"
-            lineHeight="26px"
+            fontSize="1rem"
+            lineHeight="1.625rem"
             color="gray.500"
           >
             {country.title}

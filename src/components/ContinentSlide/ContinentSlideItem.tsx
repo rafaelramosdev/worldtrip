@@ -12,7 +12,7 @@ interface ContinentSlideItemProps {
 export function ContinentSlideItem({ slug, cover, title, description }: ContinentSlideItemProps) {
   return (
     <Flex 
-      h={450}
+      h={{ base: "15.625rem", md: "28.125rem" }}
       bgImage={`url(${cover})`}
       bgPosition="center"
       align="center"
@@ -23,8 +23,8 @@ export function ContinentSlideItem({ slug, cover, title, description }: Continen
         <Heading
           as="a"
           fontWeight="bold"
-          fontSize="48px"
-          lineHeight="72px"
+          fontSize={{ base: "1.5rem", md: "3rem" }}
+          lineHeight={{ base: "2.25rem", md: "4.5rem" }}
           textAlign="center"
           color="white.800"
         >
@@ -35,10 +35,11 @@ export function ContinentSlideItem({ slug, cover, title, description }: Continen
       <Text
         as="span"
         fontWeight="bold"
-        fontSize="24px"
-        lineHeight="36px"
+        fontSize={{ base: "0.875rem", md: "1.5rem" }}
+        lineHeight={{ base: "1.3125rem", md: "2.25rem" }}
         textAlign="center"
         color="gray.200"
+        mt={{ base: "6px", md: "0px" }}
       >
         {description}
       </Text>

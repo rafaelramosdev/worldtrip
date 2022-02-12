@@ -1,4 +1,4 @@
-import { Stack, Image, Text } from "@chakra-ui/react";
+import { Box, Flex, Image, Img, Text, useBreakpointValue } from "@chakra-ui/react";
 
 interface TravelItemProps {
   img: string;
@@ -6,24 +6,32 @@ interface TravelItemProps {
 }
 
 export function TravelItem({ img, name }: TravelItemProps) {
+  const isWideVersion = useBreakpointValue({
+    base: false,
+    md: true,
+  });
+
   return (
-    <Stack
-      spacing="18px"
+    <Flex
+      flexDir={{ base: "row", md: "column" }}
       align="center"
+      justify={{ base: "center", md: 'flex-start'}}
     >
-      <Image
-        src={img} 
-        alt={name} 
-      />
+      { isWideVersion ? (
+        <Image src={img} alt={name} />
+      ) : (
+        <Box w="0.5rem" h="0.5rem" bg="yellow.900" borderRadius="4px" mr="0.5rem" />
+      )}
 
       <Text
-        fontWeight="600"
-        fontSize="20px"
-        lineHeight="32px"
+       mt={{ base: '0', md: '1.5rem' }}
+        fontWeight={{ base: "500", md: "600" }}
+        fontSize={{ base: "1.125rem", md: "1.25rem"}}
+        lineHeight={{ base: "1.6875rem", md: "2rem" }}
         color="gray.700"
       >
         {name}
       </Text>
-    </Stack>
+    </Flex>
   )
 }

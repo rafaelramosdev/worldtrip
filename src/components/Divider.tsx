@@ -5,12 +5,12 @@ export function Divider() {
     <Flex
       align="center"
       justify="center"
-      mt="80px"
-      mb="52px"
+      mt={{ base: "2.25rem", md: "5rem"}}
+      mb={{ base: "1.5rem", md: "3.25rem"}}
     >
       <Flex 
-        w="90px"
-        h="2px"
+        w={{ base: "3.75rem", md: "5.625rem"}}
+        h={{ base: "1px", md: "2px"}}
         bg="gray.700"
       />
     </Flex>

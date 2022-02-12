@@ -25,8 +25,8 @@ interface ContinentSlideProps {
 export function ContinentSlide({ data }: ContinentSlideProps) {
   return (
     <Box
-      px="100"
-      mt="52px"
+      px={{ base: "unset", md: "6.25rem" }}
+      mt={{ base: "1.25rem", md: "3.25rem"}}
     >
       <Swiper
         cssMode={true}
