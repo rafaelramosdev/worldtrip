@@ -9,7 +9,6 @@ import { ContinentSlide } from "../components/ContinentSlide";
 export default function Home() {
   return (
     <Box>
-      <Header />
       <Banner />
 
       <Box
@@ -34,7 +33,7 @@ export default function Home() {
         >
           Vamos nessa? <br/> Então escolha seu continente
         </Text>
-
+        
         <ContinentSlide />
       </Box>
     </Box>
