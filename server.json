@@ -1,0 +1,258 @@
+{
+  "continents": [
+    {
+      "id": 1,
+      "slug": "america",
+      "title": "América",
+      "description": "Um continente de extremos.",
+      "body": {
+        "about": "América é o continente localizado no hemisfério ocidental e que se estende, no sentido norte-sul, desde o oceano Ártico até o cabo Horn, ao longo de cerca de 15 mil quilômetros",
+        "countries": 36,
+        "languages": 1061,
+        "top_cities": 16
+      },
+      "cover": "/images/america.png",
+      "cities": [
+        {
+          "id": 1,
+          "name": "Rio de Janeiro",
+          "country_id": 6,
+          "cover": "https://images.unsplash.com/photo-1619546952812-520e98064a52?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1400&q=80"
+        },
+        {
+          "id": 2,
+          "name": "Machu Picchu",
+          "country_id": 7,
+          "cover": "https://images.unsplash.com/photo-1571492913849-fdc97148242d?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1100&q=80"
+        },
+        {
+          "id": 3,
+          "name": "Negril",
+          "country_id": 8,
+          "cover": "https://images.unsplash.com/photo-1605994543054-6ffbabbd8139?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=80"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "slug": "asia",
+      "title": "Ásia",
+      "description": "O maior e mais populoso continente.",
+      "body": {
+        "about": "A Ásia é o maior dos continentes, tanto em área como em população. Abrange um terço das partes sólidas da superfície da Terra e é responsável por abrigar quase três quintos da população mundial",
+        "countries": 65,
+        "languages": 2301,
+        "top_cities": 45
+      },
+      "cover": "/images/asia.png",
+      "cities": [
+        {
+          "id": 1,
+          "name": "Seul",
+          "country_id": 9,
+          "cover": "https://images.unsplash.com/photo-1534274867514-d5b47ef89ed7?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1100&q=80"
+        },
+        {
+          "id": 2,
+          "name": "Tóquio",
+          "country_id": 10,
+          "cover": "https://images.unsplash.com/photo-1549693578-d683be217e58?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1400&q=80"
+        },
+        {
+          "id": 3,
+          "name": "Busan",
+          "country_id": 9,
+          "cover": "https://images.unsplash.com/photo-1611372876693-4dc4153dee61?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1400&q=80"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "slug": "africa",
+      "title": "África",
+      "description": "O mais tropical de todos os continentes.",
+      "body": {
+        "about": "A África é o terceiro continente mais extenso (depois da Ásia e da América) com cerca de 30 milhões de quilômetros quadrados, cobrindo 20,3% da área total da terra firme do planeta. É o segundo continente mais populoso da Terra (atrás da Ásia) com cerca de um bilhão de pessoas",
+        "countries": 54,
+        "languages": 2000,
+        "top_cities": 5
+      },
+      "cover": "/images/africa.png",
+      "cities": [
+        {
+          "id": 1,
+          "name": "Nairóbi",
+          "country_id": 11,
+          "cover": "https://images.unsplash.com/photo-1611348524140-53c9a25263d6?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1400&q=80"
+        },
+        {
+          "id": 2,
+          "name": "Cidade do Cabo",
+          "country_id": 12,
+          "cover": "https://images.unsplash.com/photo-1585061528750-3baca2cb6a10?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1400&q=80"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "slug": "europe",
+      "title": "Europa",
+      "description": "O continente mais antigo.",
+      "body": {
+        "about": "A Europa é, por convenção, um dos seis continentes do mundo. Compreendendo a península ocidental da Eurásia, a Europa geralmente divide-se da Ásia a leste pela divisória de águas dos montes Urais, o rio Ural, o mar Cáspio, o Cáucaso, e o mar Negro a sudeste",
+        "countries": 50,
+        "languages": 60,
+        "top_cities": 32
+      },
+      "cover": "/images/europe.png",
+      "cities": [
+        {
+          "id": 1,
+          "name": "Londres",
+          "country_id": 2,
+          "cover": "https://images.unsplash.com/photo-1533929736458-ca588d08c8be?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1400&q=80"
+        },
+        {
+          "id": 2,
+          "name": "Paris",
+          "country_id": 3,
+          "cover": "https://images.unsplash.com/photo-1584807425193-d17d4e54dc3a?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1400&q=80"
+        },
+        {
+          "id": 3,
+          "name": "Roma",
+          "country_id": 1,
+          "cover": "https://images.unsplash.com/photo-1529260830199-42c24126f198?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1400&q=80"
+        },
+        {
+          "id": 4,
+          "name": "Praga",
+          "country_id": 4,
+          "cover": "https://images.unsplash.com/photo-1592906209472-a36b1f3782ef?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1400&q=80"
+        },
+        {
+          "id": 5,
+          "name": "Amsterdã",
+          "country_id": 5,
+          "cover": "https://images.unsplash.com/photo-1512470876302-972faa2aa9a4?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1400&q=80"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "slug": "oceania",
+      "title": "Oceania",
+      "description": "O menor e mais isolado continente do planeta.",
+      "body": {
+        "about": "Oceania é uma região geográfica composta por vários grupos de ilhas do oceano Pacífico. O termo Oceania foi criado em 1831 pelo explorador francês Dumont d'Urville. O termo é usado hoje em vários idiomas para designar uma região geográfica e política que compreende o continente da Austrália e ilhas do Oceano Pacífico adjacentes",
+        "countries": 14,
+        "languages": 200,
+        "top_cities": 2
+      },
+      "cover": "/images/oceania.png",
+      "cities": [
+        {
+          "id": 1,
+          "name": "Sydney",
+          "country_id": 13,
+          "cover": "https://images.unsplash.com/photo-1506973035872-a4ec16b8e8d9?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1400&q=80"
+        },
+        {
+          "id": 2,
+          "name": "Suva",
+          "country_id": 14,
+          "cover": "https://images.unsplash.com/photo-1594068049109-675b51ac3c06?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1100&q=80"
+        },
+        {
+          "id": 3,
+          "name": "Melbourne",
+          "country_id": 13,
+          "cover": "https://images.unsplash.com/photo-1592041626372-8f218f1e062c?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1400&q=80"
+        },
+        {
+          "id": 4,
+          "name": "Auckland",
+          "country_id": 15,
+          "cover": "https://images.unsplash.com/photo-1551140676-c5a87bdb7074?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1400&q=80"
+        }
+      ]
+    }
+  ],
+  "countries": [
+    {
+      "id": 1,
+      "abbreviation": "it",
+      "title": "Itália"
+    },
+    {
+      "id": 2,
+      "abbreviation": "uk",
+      "title": "Reino Unido"
+    },
+    {
+      "id": 3,
+      "abbreviation": "fr",
+      "title": "França"
+    },
+    {
+      "id": 4,
+      "abbreviation": "cz",
+      "title": "República Tcheca"
+    },
+    {
+      "id": 5,
+      "abbreviation": "nl",
+      "title": "Holanda"
+    },
+    {
+      "id": 6,
+      "abbreviation": "br",
+      "title": "Brasil"
+    },
+    {
+      "id": 7,
+      "abbreviation": "pe",
+      "title": "Peru"
+    },
+    {
+      "id": 8,
+      "abbreviation": "jm",
+      "title": "Jamaica"
+    },
+    {
+      "id": 9,
+      "abbreviation": "kr",
+      "title": "Coreia do Sul"
+    },
+    {
+      "id": 10,
+      "abbreviation": "jp",
+      "title": "Japão"
+    },
+    {
+      "id": 11,
+      "abbreviation": "ke",
+      "title": "Quênia"
+    },
+    {
+      "id": 12,
+      "abbreviation": "sa",
+      "title": "África do Sul"
+    },
+    {
+      "id": 13,
+      "abbreviation": "au",
+      "title": "Australia"
+    },
+    {
+      "id": 14,
+      "abbreviation": "fji",
+      "title": "Fiji"
+    },
+    {
+      "id": 15,
+      "abbreviation": "nz",
+      "title": "Nova Zelândia"
+    }
+  ]
+}
