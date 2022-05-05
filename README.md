@@ -33,7 +33,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 O projeto tem como objetivo o estudo e desenvolvimento de uma aplicação em React com NextJS utilizando a biblioteca de componentes Chakra UI e Swiper para desenvolvimento de carousel.
 
-worldtrip foi desenvolvido utilizando o framework NextJS utilizando o Chakra UI para montagem da interface, React Hook Form para gerenciamento dos formulários, Yup para validação de formulários e MirageJS para simular uma API.
+worldtrip foi desenvolvido utilizando o framework NextJS utilizando o Chakra UI para montagem da interface.
 
 Este é um projeto desenvolvido como prática das aulas do Chapter IV da trilha ReactJS do **[Programa Ignite](https://www.rocketseat.com.br/ignite)** da Rocketseat.
 
